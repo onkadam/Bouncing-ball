@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .sty1 {
+        background-color: red;
+        animation-delay: 0.3s;
+      }
+      .sty2 {
+        animation-delay: 0.6s;
+        background-color: blue;
+      }
+      .sty3 {
+        animation-delay: 0.9s;
+        background-color: brown;
+      }
+      .sty4 {
+        animation-delay: 1.2s;
+        background-color: chartreuse;
+      }
+      .sty5 {
+        animation-delay: 1.5s;
+        background-color: darkblue;
+      }
+      .sty6 {
+        animation-delay: 1.8s;
+        background-color: green;
+      }
+      .sty7 {
+        animation-delay: 2.1s;
+        background-color: fuchsia;
+      }
+      .sty8 {
+        animation-delay: 2.4s;
+        background-color: yellow;
+      }
+      .circle {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 300px;
+        animation-name: bouncing;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+      }
+
+      @keyframes bouncing {
+        from {
+          transform: translate(0px, 0px);
+        }
+        to {
+          transform: translate(0px, 400px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sty1 circle">
+      <h3>ONKAR</h3>
+    </div>
+    <div class="sty2 circle">
+      <h3>SANTOSH</h3>
+    </div>
+    <div class="sty3 circle">
+      <h3>YOGESH</h3>
+    </div>
+    <div class="sty4 circle">
+      <h3>PRAVIN</h3>
+    </div>
+    <div class="sty5 circle">
+      <h3>AJINKAY</h3>
+    </div>
+    <div class="sty6 circle">
+      <h3>SANDIP</h3>
+    </div>
+    <div class="sty7 circle">
+      <h3>ANIKET</h3>
+    </div>
+    <div class="sty8 circle">
+      <h3>NILESH</h3>
+    </div>
+  </body>
+</html>
